@@ -8,9 +8,9 @@ license = "${mod_license}"
 # A list of mods - how many allowed here is determined by the individual mod loader
 
 [[mods]]
-    modId = "${mod_id}"
+    modId = "diggycore"
     version = "${version}"
-    displayName = "${mod_name}"
+    displayName = "DiggyCore"
     displayURL = "${mod_url}"
     # This will be displayed as your mod's logo in the Mods panel.
     # logoFile="icon.png" #optional
@@ -23,19 +23,19 @@ Example Description
 ...ain is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain,... (Lorem Ipsum translated to english.)
 '''
 
-    [[dependencies.${mod_id}]]
+    [[dependencies.diggycore]]
         modId = "forge"
         mandatory = true
         versionRange = "[${forge_version},)"
         ordering = "NONE"
         side = "BOTH"
-    [[dependencies.${mod_id}]]
+    [[dependencies.diggycore]]
         modId = "minecraft"
         mandatory = true
         versionRange = "[${minecraft_version},)"
         ordering = "NONE"
         side = "BOTH"
-    [[dependencies.${mod_id}]]
+    [[dependencies.diggycore]]
         modId = "gtceu"
         mandatory = true
         versionRange = "[${gtceu_version},)"
